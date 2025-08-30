@@ -1,0 +1,349 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.bg {
+    width: 100%;
+    height: 70vh;
+    background-image: url(Assets/bg.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    background-size: max(1700px, 100vw);
+}
+
+.blackbg {
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.78);
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    margin: auto;
+    width: 80vw;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+
+}
+
+nav div img {
+    width: 125px;
+    padding-top: 25px;
+}
+body{
+    background-color: black;
+}
+* {
+    margin: 0;
+font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 0    ;
+
+}
+
+.eng {
+    background-color: rgba(39, 39, 39, 0.78);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    margin-top: 18px;
+
+}
+
+.sign {
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+}
+.hero{
+    color: white;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+margin-top: 90px;
+
+ 
+}
+.hero> :nth-child(1){
+    
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 15px;
+}
+.hero> :nth-child(2){
+font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 20px;
+}
+.hero> :nth-child(3){
+font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 5px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.email{
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    padding-right: 30px;
+    background-color: rgba(45, 45, 45, 0.751);
+    width: 200px;
+    color: white;
+}
+.start{
+    padding: 9px 12px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.email-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sepration{
+    background-color: rgb(54, 54, 54);
+    height: 5px;
+    width: 100%;
+}
+
+.first{
+    color: white;
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    justify-content: center;
+}
+.one{
+    margin-bottom: 100px;
+}
+
+section div img{
+    position: absolute;
+    width: 500px;
+    z-index: 100;
+
+}
+section div video{
+    position: relative;
+    width: 364px;
+    margin-top: 78px;
+    margin-left: 66px;
+
+}
+.firsttxt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.secondtxt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.big{
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 40px;
+}
+.small{
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25;
+  
+}
+.small_2{
+  margin-bottom: 50px;
+}
+.secimg{
+    width: 500px;
+    position: relative;
+}
+
+.third{
+    width: 405px;
+    margin-top: 66px;
+}
+.faqbox{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    width: 70vw;
+    margin: 10px auto;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.heading{
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+ text-align: center;
+ margin-top: 40px;
+ margin-bottom: 30px;
+}
+.last{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.faqbox:hover{
+    transition: all 0.4s ease-out;
+    background-color: rgb(81, 81, 81);
+    cursor: pointer;
+}
+footer{
+    color: white;
+    width: 70vw;
+    margin: 40px auto;
+}
+.ques{
+ margin-bottom: 45px;
+     color: rgb(171, 171, 171);
+
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+    list-style-type: none;
+    gap: 10px;
+    padding-left: 0px;
+    font-size: small;
+    margin-bottom: 50px;
+}
+.grid a:link{
+    color: rgb(171, 171, 171);
+
+}
+
+.grid a:visited{
+    color: rgb(171, 171, 171);
+}
+
+#language{
+    padding: 4px 6px;
+    color: white;
+    background-color: rgba(31, 31, 31, 0.746);
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+.net{
+    font-size: small;
+    color: rgb(200, 200, 200);
+    margin-bottom: 30px;
+}
+
+.learnmore{
+    font-size: small;
+    color: rgb(177, 177, 177);
+    margin-bottom: 140px;
+}
+
+@media screen and (max-width: 1200px) {
+    .first{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .secondtxt{
+      margin-top: 20px;
+    }
+    section div img{
+    position: absolute;
+    width: 350px;
+    z-index: 100;
+
+}
+section div video{
+    position: relative;
+    width: 267px;
+    margin-top: 54px;
+    margin-left: 46px;
+}
+.big{
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+}
+.firsttxt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+.third{
+    width: 285px;
+    margin-top: 46px;
+}
+.secimg{
+    width: 350px;
+    position: relative;
+}
+.email-row{
+    flex-wrap: wrap;
+}
+nav{
+    width: 90vw;
+}
+.hero> :nth-child(1){
+    font-size: 30px;
+}
+.hero> :nth-child(2){
+    font-size: 18px;
+}
+.hero> :nth-child(3){
+    font-size: 15px;
+    margin-top: 7px;
+}
+.hero {
+    margin-top: 70px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer{
+   width: 90vw;
+}
+}
