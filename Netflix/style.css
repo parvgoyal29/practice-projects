@@ -347,3 +347,12 @@ footer{
    width: 90vw;
 }
 }
+@media screen and (max-width: 475px){
+    .bg{
+        height: 80vh;
+    }
+    .blackbg{
+        height: 80vh;
+    }
+}
+    
